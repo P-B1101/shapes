@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class AntennaWidget extends StatelessWidget {
+class AnimatedAntenna extends StatelessWidget {
   final double percent;
   final double size;
   final Color? color;
 
-  AntennaWidget({super.key, required double percent, this.size = 26, this.color}) : percent = percent.clamp(.0, 1.0);
+  AnimatedAntenna({super.key, required double percent, this.size = 26, this.color}) : percent = percent.clamp(.0, 1.0);
 
   @override
   Widget build(BuildContext context) {

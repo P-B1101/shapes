@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class BatteryWidget extends StatelessWidget {
+class AnimatedBattery extends StatelessWidget {
   final double percent;
   final double size;
   final Map<double, Color> colors;
   final Color? bodyColor;
 
-  BatteryWidget({super.key, required double percent, this.size = 24, this.colors = const {}, this.bodyColor})
+  AnimatedBattery({super.key, required double percent, this.size = 24, this.colors = const {}, this.bodyColor})
     : percent = percent.clamp(.0, 1.0);
 
   @override

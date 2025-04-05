@@ -1,2 +1,2 @@
-export 'src/battery_widget.dart';
-export 'src/antenna_widget.dart';
+export 'src/animated_battery.dart';
+export 'src/animated_antenna.dart';
